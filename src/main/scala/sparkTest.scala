@@ -10,6 +10,6 @@ object sparkTest {
     val rdd1 = sparkSession.sparkContext.makeRDD(List((1,"li",10),(2,"song",11),(1,"liu",12),(3,"qiang",13),(4,"cheng",14),(4,"ke",15)))
     val df1 = rdd1.toDF("id","name","age")
     df1.show()
-    println("44444444111")
+    println("44444444111222222")
   }
 }
